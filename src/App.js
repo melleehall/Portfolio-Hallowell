@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 
 import Hero from './Hero/Hero'
-import Headline from './Headline/Headline'
 import IntroSection from './IntroSection/IntroSection'
 import ProjectSection from './ProjectSection/ProjectSection'
 import ContactSection from './ContactSection/ContactSection'

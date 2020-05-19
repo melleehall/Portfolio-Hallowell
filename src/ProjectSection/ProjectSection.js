@@ -6,8 +6,6 @@ import HHTripsList from '../HomeHolidayScreengrabs/HHTripsList.png'
 import HHNav from '../HomeHolidayScreengrabs/HHNav.png'
 import EconomyPumpHHIncome from '../EconomyPumpScreengrabs/EconomyPumpHHIncomeView.jpg'
 import EconomyPumpShopView from '../EconomyPumpScreengrabs/EconomyPumpShopView.jpg'
-import QuizAppStartView from '../QuizScreengrabs/QuizAppStartView.jpg'
-import QuizAppQuestionView from '../QuizScreengrabs/QuizAppQuestionView.jpg'
 import './ProjectSection.css'
 
 export default class IntroSection extends Component {
