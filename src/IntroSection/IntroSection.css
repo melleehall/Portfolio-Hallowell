@@ -1,0 +1,13 @@
+.intro-container,
+.headshot-container {
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.headshot-container {
+    height: 180px;
+    width: 180px;
+    margin: 20px auto;
+}

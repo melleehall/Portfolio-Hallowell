@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
 
 import Hero from './Hero/Hero'
+import Headline from './Headline/Headline'
+import IntroSection from './IntroSection/IntroSection'
 import Footer from './Footer/Footer'
 import './App.css'
-
-
 
 
 export default class App extends Component {
@@ -22,7 +22,7 @@ export default class App extends Component {
           </div>
           <div className='main-container'>
             <main>
-               
+              <IntroSection />
             </main>
           </div>
           <div className='footer-container'>
