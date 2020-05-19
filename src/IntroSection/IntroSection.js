@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Headshot from '../Headshot/Headshot'
 import Headline from '../Headline/Headline'
+import IntroPara from '../IntroPara/IntroPara'
 import './IntroSection.css'
 
 export default class IntroSection extends Component {
@@ -11,6 +12,8 @@ export default class IntroSection extends Component {
                     <Headshot />
                 </div>
                 <Headline />
+                <IntroPara />
+                <div className='divider'></div>
             </section>
         )
     }

@@ -11,3 +11,10 @@
     width: 180px;
     margin: 20px auto;
 }
+
+.divider {
+    margin-top: 30px;
+    background-color: #936319;
+    height: 5px;
+    width: 100%;
+}

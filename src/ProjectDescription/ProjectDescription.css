@@ -1,0 +1,17 @@
+h4 {
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Homemade Apple', cursive;
+}
+
+.live-repo {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.live-repo a {
+    background-color: tan;
+    border-radius: 15px;
+    padding: 8px;
+    margin: 0px 10px;
+}
