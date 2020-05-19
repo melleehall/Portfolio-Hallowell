@@ -8,10 +8,3 @@
     width: 220px;
     margin: 20px auto;
 }
-
-/* Flex-row for screengrabs on larger screens ie. tablets and desktops */
-@media (min-width: 768px) {
-    .project-container {
-        flex-direction: row;
-    }
-}

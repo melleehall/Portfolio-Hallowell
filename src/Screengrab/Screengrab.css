@@ -1,7 +1,24 @@
 .screengrab {
     width: 220px;
     height: 400px;
+    margin: 50px auto;
     border-radius: 15px;
-    margin: 25px 0px;
     box-shadow: 5px 10px 10px #888888;
+}
+
+.screengrab-container {
+    width: 220px;
+}
+
+
+/* Flex-row for screengrabs on larger screens ie. tablets and desktops */ 
+@media (min-width: 768px) {
+    .screengrab-container {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+    .screengrab {
+        margin: 50px 20px;
+    }
 }

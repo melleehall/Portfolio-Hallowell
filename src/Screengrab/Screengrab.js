@@ -4,10 +4,10 @@ import './Screengrab.css'
 export default class Screengrab extends Component {
     render() {
         return (
-            <p>
+            <div className='screengrab-container'>
                 <img src={this.props.imageone} className='screengrab'/>
                 <img src={this.props.imagetwo} className='screengrab'/>
-            </p>
+            </div>
         )
     }
 }

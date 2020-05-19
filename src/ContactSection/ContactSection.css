@@ -1,22 +1,28 @@
 .contact-header {
     text-align: center;
-    margin: 35px 0px;
+    margin: 35px auto;
     padding: 10px;
     background-color: #936319;
     color: #f7e8cb;
+    width: 250px;
 }
 
 ul {
-    list-style-type: square;
+    list-style-type: none;
     padding-left: 0px;
 }
 
 .contact-link {
-    margin: 10px 0px;
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px #936319 solid;
+    width: 250px;
 }
 
 .contact-link a {
+    color: black;
     text-decoration: none;
+    cursor: pointer;
 }
 
 .contact-link a:hover,

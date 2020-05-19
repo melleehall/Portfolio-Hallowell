@@ -6,7 +6,7 @@ import './Project.css'
 export default class Project extends Component {
     render() {
         return (
-            <p className='project-container'>
+            <div className='project-container'>
                 <ProjectDescription 
                     name={this.props.name} 
                     description={this.props.description} 
@@ -15,11 +15,11 @@ export default class Project extends Component {
                     live={this.props.live}
                     repo={this.props.repo}
                 />
-                <div className='screengrabs-container'>
+                <div className='screengrabs'>
                     <Screengrab imageone={this.props.imageone} imagetwo={this.props.imagetwo} />
                 </div>
                 <div className='divider'></div>
-            </p>
+            </div>
         )
     }
 }
