@@ -6,7 +6,7 @@ export default class ContactSection extends Component {
         return (
             <section>
                 <h3 className='contact-header'>Let's Get In Touch</h3>
-                <ul>
+                <ul className='contact-link-list'>
                     <li className='contact-link'>
                         <a href='mailto:melleehall@gmail.com' target='_blank'>
                             melleehall@gmail.com
