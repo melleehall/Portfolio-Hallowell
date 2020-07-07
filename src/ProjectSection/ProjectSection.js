@@ -15,7 +15,7 @@ export default class IntroSection extends Component {
                 <h3 className='projects-header'>Recent Projects</h3>
                 <Project 
                     name='Clear Creek Broadband'
-                    description="I created this application for Clear Creek Broadband (CCB), a local internet service company located outside of Denver, CO. The purpose of this application is to provide an easy channel for users to request service, join the mailing list to stay informed, and/or volunteer. The website is also used to keep interested parties updated on network progress and provide answers to commonly asked questions saving CCB Board Members time." 
+                    description="[ - Mobile Response Currently Disabled for Client - ]  I created this application for Clear Creek Broadband (CCB), a local internet service company located outside of Denver, CO. The purpose of this application is to provide an easy channel for users to request service, join the mailing list to stay informed, and/or volunteer. The website is also used to keep interested parties updated on network progress and provide answers to commonly asked questions saving CCB Board Members time." 
                     tech = 'Node.js, Express, React, PostgreSQL, JS ES6, HTML5, CSS3'
                     test='Testing: Mocha, Chai, Supertest, Jest'
                     live='https://www.clearcreekbroadband.com/'
